@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ouzea/static/css/main.b0d0eca9.chunk.css",
-    "main.js": "/ouzea/static/js/main.13715928.chunk.js",
-    "main.js.map": "/ouzea/static/js/main.13715928.chunk.js.map",
+    "main.css": "/ouzea/static/css/main.7f0927c6.chunk.css",
+    "main.js": "/ouzea/static/js/main.06942f31.chunk.js",
+    "main.js.map": "/ouzea/static/js/main.06942f31.chunk.js.map",
     "runtime-main.js": "/ouzea/static/js/runtime-main.e51986e1.js",
     "runtime-main.js.map": "/ouzea/static/js/runtime-main.e51986e1.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/ouzea/static/css/2.7fc9bc2b.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.78b41c0e.chunk.js.map": "/ouzea/static/js/2.78b41c0e.chunk.js.map",
     "index.html": "/ouzea/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/ouzea/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.b0d0eca9.chunk.css.map": "/ouzea/static/css/main.b0d0eca9.chunk.css.map",
+    "static/css/main.7f0927c6.chunk.css.map": "/ouzea/static/css/main.7f0927c6.chunk.css.map",
     "static/js/2.78b41c0e.chunk.js.LICENSE.txt": "/ouzea/static/js/2.78b41c0e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e51986e1.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.78b41c0e.chunk.js",
-    "static/css/main.b0d0eca9.chunk.css",
-    "static/js/main.13715928.chunk.js"
+    "static/css/main.7f0927c6.chunk.css",
+    "static/js/main.06942f31.chunk.js"
   ]
 }
