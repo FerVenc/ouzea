@@ -1,0 +1,51 @@
+.section02-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    background-color: $Color02;
+    color: $Color03;
+
+    .rocks{
+        position: absolute;
+        left: -7%;
+        height: 60%;
+    }
+}
+
+.section02-component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 20px;
+    flex-direction: column;
+
+    h3{
+        font-family: $Font01;
+        font-size: 2rem;
+    }
+
+    hr{
+        width: 100%;
+        outline: none;
+        border: 2px solid $Color01-shadow;
+        margin-bottom: 20px;
+    }
+
+    p{
+        color: $Color01;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .btn-section02{
+        background-color: $Color01;
+        color: $Color02;
+        box-shadow: 2px 3px 9px 1px#444;
+        &:hover{
+            background-color: $Color01-shadow;
+        }
+    }
+}

@@ -1,0 +1,445 @@
+// General imports: 
+@import './base/settings';
+@import './base/base';
+
+// Screens
+@import './components/Navbar';
+@import './components/Header';
+@import './components/Section-01';
+@import './components/Section-02';
+@import './components/ContactForm';
+@import './components/Footer';
+
+// Components:
+@import './components/Buttons';
+
+
+// Media Querys:
+@media (max-width: 1920px) and (min-width: 1080px){
+    .header-container{
+        height: 1080px;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 720px){
+    .bottle{
+        width: 18%;
+        right: 15%;
+        top: 7%;
+        z-index: 1;
+    }
+    
+    .leaf{
+        width: 40%;
+        top: 0;
+        right: -50px;
+        right: -180px;
+    }
+
+    .header-logo-box{
+        left: 10%;
+        top: 20%;
+        padding: 30px;
+    }
+
+    .section01-container{
+        .coconut{
+            left: 2%;
+            top: 120%;
+            height: 50%;
+        }
+    }
+
+    .section02-container{
+        height: 35vh;
+    }
+
+    .section02-component{
+        h3{
+            font-size: 1.8rem;
+            margin-top: 20px;
+        }
+    
+        hr{
+            margin-bottom: 10px;
+        }
+    
+        p{
+            color: $Color01;
+            text-align: center;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .btn-section02{
+            margin-bottom: 20px;
+            }
+    }
+}
+
+@media (max-width: 1170px){
+    .section01-container{
+        height: auto;
+
+        .section01-component-container{
+            margin-top: 30px;
+
+            .section01-textbox{
+                text-align: center;
+                padding: 30px;
+                width: 100%;
+            }
+        
+            .section01-imagebox{
+                padding: 30px;
+            }
+        }
+
+        .coconut{
+            top: 115%;
+        }
+    }
+}
+
+@media (max-width: 1080px){
+    .section01-container{
+        .coconut{
+            top: 90%;
+        }
+    }
+}
+
+@media (max-width: 960px) and (min-width: 540px){
+    .bottle{
+        width: 15%;
+        right: 15%;
+        top: 60%;
+        z-index: 1;
+    }
+    
+    .header-logo-box{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 16%;
+        width: 60%;
+        top: 10%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .section01-container{
+        height: auto;
+
+        .section01-component-container{
+            margin-top: 30px;
+
+            .section01-textbox{
+                text-align: center;
+                padding: 30px;
+                width: 100%;
+            }
+        
+            .section01-imagebox{
+                padding: 30px;
+            }
+        }
+
+        .coconut{
+            top: 140%;
+        }
+    }
+
+    .section02-container{
+        height: auto;
+    }
+
+    .contact-form-container{
+        height: auto;
+        padding: 30px;
+    
+        .form-container{
+            width: 600px;
+            padding: 50px;
+            border-radius: 5%;
+            background-color: #aca99e42;
+        }
+
+        .contact-logo{
+            width: 40%;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+@media (max-width: 640px) and (min-width: 480px){
+    .bottle{
+        display: none;
+    }
+
+    .leaf{
+        width: 40%;
+        right: -80px;
+        right: -180px;
+    }
+    
+    .header-logo-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        left: 0;
+        top: 20%;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        hr{
+            width: 80%;
+        }
+
+        .logo{
+            width: 40%;
+        }
+    }
+
+    .social-icons{
+        display: flex;
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        color: $Color01;
+    }
+
+    .section01-container{
+        height: auto;
+
+        .section01-component-container{
+            margin-top: 30px;
+
+            .section01-textbox{
+                text-align: center;
+                padding: 30px;
+                width: 100%;
+            }
+        
+            .section01-imagebox{
+                padding: 30px;
+            }
+        }
+
+        .coconut{
+            top: 155%;
+        }
+
+        .can{
+            width: 400px;
+        }
+    }
+
+    .section02-container{
+        height: auto;
+
+        .rocks{
+            position: absolute;
+            left: -20%;
+            height: 70%;
+        }
+
+        .section02-component{
+            width: 60%;
+            margin: 20px;
+    }
+}
+
+    .contact-form-container{
+        height: auto;
+        padding: 30px;
+    
+        .form-container{
+            width: 600px;
+            padding: 50px;
+            border-radius: 5%;
+            background-color: #aca99e42;
+        }
+
+        .contact-logo{
+            width: 40%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .navbar-container{
+
+        .navbar-list{
+            display: none;
+        }
+    
+        .navbar-search-box{
+            display: flex;
+    
+            .search-icon{
+                color: $Color02;
+            }
+    }    
+    }
+
+    .navbar-container-active{
+
+        .navbar-list{
+            display: none;
+        }
+    
+        .navbar-search-box{
+            display: flex;
+    
+            .search-icon{
+                color: $Color01;
+            }
+    }    
+    }
+
+}
+
+@media (max-width: 550px){
+    .bottle{
+        display: none;
+    }
+
+    .leaf{
+        width: 50%;
+        right: -100px;
+    }
+    
+    .header-logo-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        left: 0;
+        top: 30%;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        hr{
+            width: 80%;
+        }
+
+        .logo{
+            width: 60%;
+        }
+    }
+
+    .social-icons{
+        display: flex;
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        color: $Color01;
+    }
+
+    .section01-container{
+        height: auto;
+
+        .section01-component-container{
+            margin-top: 40px;
+
+            .section01-textbox{
+                text-align: center;
+                padding: 30px;
+                width: 100%;
+            }
+        
+            .section01-imagebox{
+                padding: 30px;
+            }
+        }
+
+        .coconut{
+            height: 30%;
+            top: 90%;
+            left: -30%;
+        }
+
+        .can{
+            width: 100%;
+        }
+    }
+
+    .section02-container{
+        height: auto;
+        padding: 30px;
+
+        .section02-component{
+            width: 80%;
+        }
+
+        .rocks{
+            position: absolute;
+            left: -30%;
+            height: 40%;
+        }
+}
+
+    .contact-form-container{
+        height: auto;
+        padding: 30px;
+    
+        .form-container{
+            width: 600px;
+            padding: 50px;
+            border-radius: 5%;
+            background-color: #aca99e42;
+        }
+
+        .contact-logo{
+            width: 40%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .navbar-container{
+        justify-content: space-between;
+        padding: 0px 20px 0px 20px;
+        .navbar-list{
+            display: none;
+        }
+    
+        .navbar-search-box{
+            display: flex;
+    
+            .search-icon{
+                color: $Color02;
+            }
+
+            input{
+                display: none;
+            }
+    }    
+    }
+
+    .navbar-container-active{
+        justify-content: space-between;
+        padding: 0px 20px 0px 20px;
+        .navbar-list{
+            display: none;
+        }
+    
+        .navbar-search-box{
+            display: flex;
+    
+            .search-icon{
+                color: $Color01;
+            }
+
+            input{
+                display: none;
+            }
+    }    
+    }
+
+}
+
+
+

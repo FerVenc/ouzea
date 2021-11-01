@@ -1,0 +1,97 @@
+.header-container{
+    display: flex;
+    width: 100%;
+    min-height: 920px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: $Color01;
+    color: $Color01;
+}
+
+
+// Images:
+.background-logo{
+    position: absolute;
+    background-size: cover;
+}
+
+.bottle{
+    position: absolute;
+    right: 20%;
+    z-index: 1;
+    animation: ShowAnimation 900ms;
+}
+
+.leaf{
+    position: absolute;
+    min-height: 80%;
+    top: 0;
+    right: -180px;
+    animation: ShowAnimation 700ms;
+}
+
+@keyframes ShowAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+// ===============
+.header-logo-box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 15%;
+    padding: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    animation: ShowAnimation 800ms;
+
+    h4{
+        font-family: $Font01;
+        font-size: 2rem;
+        color: $Color02;
+        margin: 30px;
+    }
+
+    hr{
+        width: 600px;
+        height: 3px;
+        outline: none;
+        border: none;
+        background-color: $Color02;
+    }
+}
+
+//  Social Media Icons:
+.social-icons{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    color: $Color01;
+
+    i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $Color02;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 100%;
+        cursor: pointer;
+        transition: all 150ms ease-in-out;
+        animation: ShowAnimation 500ms;
+
+        &:hover{
+            background-color: $Color02-shadow;
+            transform: scale(1.1);
+        }
+    }
+}

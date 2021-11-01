@@ -1,0 +1,50 @@
+.section01-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: $Color03;
+    color: $Color01;
+
+    .coconut{
+        position: absolute;
+        left: 2%;
+        top: 75%;
+        height: 50%;
+    }
+}
+
+.section01-component-container{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .section01-textbox{
+        padding: 30px;
+        width: 40%;
+    }
+
+    .section01-imagebox{
+        padding: 30px;
+    }
+}
+
+.can{
+    width: 500px;
+}
+
+h3{
+    font-family: $Font01;
+    font-size: 3rem;
+    color: $Color01;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: $Font01;
+    font-size: 1.1rem;
+    color: $Color02;
+}
